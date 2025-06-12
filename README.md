@@ -7,7 +7,7 @@ A simple .NET 8 web application for managing ZIP code records (view, add, update
 1. Clone repository.
 2. Open the project in VS Code.
 3. Ensure `.NET 8 SDK` installation.
-4. Run the API with `dotnet run` command\
+4. Run the API with `dotnet run` command
 5. Open your browser and go to `https://localhost:5001`
 6. Frontend UI allows for managing of ZIP code records.
 
