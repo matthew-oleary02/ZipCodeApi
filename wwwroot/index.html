@@ -1,0 +1,42 @@
+<!-- Frontend layout for managing zip code records -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zip Code Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Zip Code Records</h1>
+
+  <!-- Display table for zip records -->
+  <table id="zipTable">
+    <thead>
+      <tr>
+        <th>Zip</th>
+        <th>City</th>
+        <th>State</th>
+        <th>County</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- Form to add new record -->
+  <h2>Add New Zip Code</h2>
+  <form id="zipForm">
+    <input type="text" id="zip" placeholder="Zip" required>
+    <input type="text" id="city" placeholder="City" required>
+    <input type="text" id="state" placeholder="State" required>
+    <input type="text" id="county" placeholder="County">
+    <input type="number" id="latitude" placeholder="Latitude" step="any">
+    <input type="number" id="longitude" placeholder="Longitude" step="any">
+    <button type="submit">Add</button>
+  </form>
+
+  <script src="main.js"></script>
+</body>
+</html>
